@@ -14,7 +14,7 @@ datasource db {
   shadowDatabaseUrl = env("DATABASE_SHADOW_URL")
 }
 
-model manager {
+model cms_manager {
   id         Int      @id @default(autoincrement())
   username   String   @unique
   password   String

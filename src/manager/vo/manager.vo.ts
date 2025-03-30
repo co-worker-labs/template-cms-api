@@ -1,4 +1,4 @@
-import { manager } from '@prisma/client';
+import { cms_manager } from '@prisma/client';
 
 export class ManagerVO {
   constructor(
@@ -9,7 +9,7 @@ export class ManagerVO {
   ) {}
 }
 
-export function toManagerVO(m: manager): ManagerVO {
+export function toManagerVO(m: cms_manager): ManagerVO {
   if (!m) return null;
   return new ManagerVO(m.id, m.username, m.role, m.created_at);
 }
