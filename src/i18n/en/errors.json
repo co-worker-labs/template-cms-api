@@ -1,0 +1,13 @@
+{
+  "success": "Success",
+  "not_found": "Not Found",
+  "internal_error": "Service Error. Please try again later",
+  "unauthorized": "Unauthorized, please login",
+  "forbidden": "Forbidden resource",
+  "parameter_missing": "Missing Parameter",
+  "parameter_invalid": "Invalid Parameter",
+  "invalid_id": "Invalid ID",
+  "duplicated": "Duplicated",
+  "not_supported": "Not supported",
+  "incorrect_username_or_password": "Incorrect username or password"
+}

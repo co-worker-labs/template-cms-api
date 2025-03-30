@@ -1,0 +1,13 @@
+{
+  "success": "成功",
+  "not_found": "未找到记录",
+  "internal_error": "系统错误，请稍后重试",
+  "unauthorized": "未认证，请登录",
+  "forbidden": "没有权限",
+  "parameter_missing": "缺少参数",
+  "parameter_invalid": "无效参数",
+  "invalid_id": "无效的ID",
+  "duplicated": "记录已存在",
+  "not_supported": "不支持的操作",
+  "incorrect_username_or_password": "用户名或密码错误"
+}
