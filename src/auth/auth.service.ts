@@ -5,14 +5,14 @@ import {
 } from '../common/exception/exception';
 import { Errs } from '../common/error-codes';
 import * as bcrypt from 'bcrypt';
-import { manager } from '@prisma/client';
+import { cms_manager } from '@prisma/client';
 import { ManagerService } from '../manager/manager.service';
 
 @Injectable()
 export class AuthService {
   constructor(private readonly managerService: ManagerService) {}
 
-  async signIn(username: string, password: string): Promise<manager> {
+  async signIn(username: string, password: string): Promise<cms_manager> {
     const m = await this.managerService.findOneByUsername(username);
     if (!m) {
       throw new BadRequestException(Errs.INCORRECT_USERNAME_OR_PASSWORD);

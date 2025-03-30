@@ -10,7 +10,7 @@ export class ErrorCode {
 }
 
 export class Errs {
-  static readonly SUCCESS = ErrorCode.of(0, 'success');
+  static readonly SUCCESS = ErrorCode.of(200, 'success');
   static readonly NOT_FOUND = ErrorCode.of(404, 'not_found');
   static readonly UNAUTHORIZED = ErrorCode.of(401, 'unauthorized');
   static readonly FORBIDDEN = ErrorCode.of(401, 'forbidden');
