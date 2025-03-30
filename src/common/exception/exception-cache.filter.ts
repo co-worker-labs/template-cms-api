@@ -82,7 +82,7 @@ export class ExceptionCacheFilter implements ExceptionFilter {
     const response = ctx.getResponse();
 
     const res = {
-      reqId: request.id,
+      rid: request.id,
       code: code === -1 ? status : code,
       msg: this.i18n.t(`errors.${msg}`, { args: args }),
       ts: Date.now(),

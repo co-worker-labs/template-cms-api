@@ -5,7 +5,7 @@ export class ManagerVO {
     public id: number,
     public username: string,
     public role: number,
-    public createdAt: Date,
+    public created_at: Date,
   ) {}
 }
 
